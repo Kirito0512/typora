@@ -17,7 +17,7 @@
 ```
   Intent startIntent = new Intent(getApplicationContext(), CustomService.class);
   if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-     startForegroundService(startIntent);
+         startForegroundService(startIntent);
      } else {
          startService(startIntent);
      }
